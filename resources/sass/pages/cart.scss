@@ -1,0 +1,32 @@
+.cart-main-wrapper {
+    .table {
+        thead {
+            background-color: $red;
+            color: $white;
+
+            th {
+                border: none;
+            }
+        }
+
+        tbody tr td {
+            vertical-align: middle;
+            font-weight: 600;
+
+            &.pro-thumbnail {
+                width: 100px;
+            }
+
+            .list {
+                width: 100%;
+            }
+
+            &.cart-total-price label {
+                font-size: 20px;
+                margin-bottom: 0;
+            }
+
+        }
+ 
+    }
+}

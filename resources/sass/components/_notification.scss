@@ -1,0 +1,82 @@
+.notifications-dropdown {
+    #MessageCountUnRead {
+        height: 17px;
+        width: 17px;
+        border-radius: 50%;
+        background: $red;
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        font-size: 11px;
+    }
+
+    .dropdown-menu {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 8px;
+        min-width: 350px;
+
+        &:before {
+            position: absolute;
+            top: -7px;
+            left: 40px;
+            display: inline-block !important;
+            border-right: 7px solid transparent;
+            border-bottom: 7px solid $red;
+            border-left: 7px solid transparent;
+            content: '';
+        }
+    }
+
+    .dropdown-menu-header {
+        padding-top: 5px;
+        padding: 6px;
+        background: $red;
+        color: #FFF;
+        font-weight: bold;
+        margin-bottom: 6px;
+
+        a {
+            font-weight: normal;
+        }
+    }
+
+    .dropdown-item {
+        white-space: inherit;
+        border-bottom: 1px solid rgba(0,0,0,.15);
+
+        &.not-read {
+            font-weight: bold;
+        }
+
+        &:active {
+            background: none;
+        }
+
+        small {
+            color: #6f6f6f;
+        }
+
+        h4 {
+            margin-bottom: 2px;
+        }
+
+        a {
+            display: block;
+        }
+    }
+
+    .dropdown-item:last-child {
+        border-bottom: none;
+    }
+
+    .notifications-dropdown-footer {   
+        text-align: center;
+        font-size: 13px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        background: #e2e2e2;
+        text-transform: uppercase;
+    }
+
+}

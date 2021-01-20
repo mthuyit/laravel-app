@@ -1,0 +1,110 @@
+.shop-product-wrap {
+    &.grid {
+        .product-item {
+            display: block;
+            -webkit-animation-name: zoomIn;
+            animation-name: zoomIn;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+        }
+
+        .product-list-item {
+            display: none !important;
+        }
+    }
+
+    &.list {
+        .product-item {
+            display: none;
+        }
+
+        .product-list-item {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-animation-name: fadeInRight;
+            animation-name: fadeInRight;
+            -webkit-animation-duration: 0.8s;
+            animation-duration: 0.8s;
+        }
+
+        .col-lg-4, .col-lg-3 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    .product-list-item {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        &:hover {
+            .product-thumb .img-sec {
+                opacity: 1;
+                visibility: visible;
+            }
+        } 
+
+        .product-thumb {
+            position: relative;
+            -webkit-flex-basis: 300px;
+            -moz-flex-basis: 300px;
+            -ms-flex-basis: 300px;
+            -ms-flex-preferred-size: 300px;
+            flex-basis: 300px;
+            max-height: 300px;
+
+            .img-sec {
+                top: 0;
+                left: 0;
+                width: 100%;
+                position: absolute;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            .product-label {
+                top: 0;
+                left: 0;
+                position: absolute;
+            }
+        }
+
+        .product-list-content {
+            padding: 0 50px 0 20px;
+            -webkit-flex-basis: calc(100% - 300px);
+            -moz-flex-basis: calc(100% - 300px);
+            -ms-flex-basis: calc(100% - 300px);
+            -ms-flex-preferred-size: calc(100% - 300px);
+            flex-basis: calc(100% - 300px);
+
+            h3 {
+                font-size: 26px;
+                line-height: 36px;
+                text-transform: capitalize;
+            }
+
+            .pricebox {
+                padding-top: 10px;
+                margin-top: 10px;
+                border-top: 2px solid #d8373e;
+
+                .regular-price {
+                    color: #d8373e;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+                .old-price {
+                    color: #a5a5a5;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}

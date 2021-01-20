@@ -1,0 +1,72 @@
+.my-account-wrapper {
+    .myaccount-content {
+        border: 1px solid #eeeeee;
+        padding: 30px;
+
+        h3 {
+            font-size: 22px;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+
+        .shown .details-control {
+            &:before {
+                content: "\f068";
+            }
+        }
+
+        .details-control {
+            cursor: pointer;
+            display: table-cell;
+            vertical-align: middle;
+            
+            &:before {
+                content: "\f067";
+            }
+        }
+    }
+
+    .myaccount-tab-menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        a {
+            border: 1px solid #ccc;
+            border-bottom: none;
+            color: #444444;
+            font-weight: 500;
+            font-size: 13px;
+            display: block;
+            padding: 10px 15px;
+            text-transform: uppercase;
+
+            .fa {
+                font-size: 14px;
+                text-align: center;
+                width: 25px;
+            }
+
+            &:last-child {
+                border-bottom: 1px solid #ccc;
+            }
+
+            &:hover, &.active {
+                background-color: #d8373e;
+                border-color: #d8373e;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .notification-table .mark div {
+        cursor: pointer;
+
+        &.read {
+            color: #38c172;
+        }
+    }
+}

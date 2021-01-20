@@ -1,0 +1,58 @@
+.contact-area {
+    .contact-message {
+        h2 {
+            color: #444444;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: capitalize;
+            padding-bottom: 28px;
+        }
+        
+    }
+
+    .contact-info {
+        height: 100%;
+
+        h1 {
+            color: #444444;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: capitalize;
+            padding-bottom: 22px;
+        }
+
+        p {
+            color: #404040;
+            padding-bottom: 30px;
+        }
+
+        li {
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            -ms-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            i {
+                font-size: 18px;
+                padding-right: 10px;
+            }
+        }
+
+        .working-time h3 {
+            color: #444444;
+            font-size: 18px;
+            font-weight: 600;
+            padding-bottom: 5px;
+        }
+    }
+}

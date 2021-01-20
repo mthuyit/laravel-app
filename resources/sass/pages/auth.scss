@@ -1,0 +1,23 @@
+.login-reg-form-wrap {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    padding: 23px 30px 30px;
+
+    h2 {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: #444444;
+        border-bottom: #ccc;
+        padding-bottom: 15px;
+    }
+
+    .forget-pwd {
+        color: #d8373e;
+        font-size: 12px;
+        margin-top: -6px;
+    }
+}

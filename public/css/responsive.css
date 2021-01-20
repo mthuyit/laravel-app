@@ -1,0 +1,128 @@
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+  header .search-box {
+    -ms-flex-basis: 550px;
+    flex-basis: 550px;
+  }
+
+  header .header-middle-area .header-middle-block .header-mini-cart {
+    -ms-flex-basis: calc(100% - 560px);
+    flex-basis: calc(100% - 560px);
+  }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+  header .category-toggle-wrap {
+    display: none;
+  }
+
+  main .slider-wrapper-area {
+    max-width: 100%;
+  }
+
+  main .slider-wrapper-area .single-slider {
+    margin-left: 0;
+  }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+  .mb-sm-26 {
+    margin-bottom: 26px !important;
+  }
+
+  .mt-sm-34 {
+    margin-top: 34px !important;
+  }
+
+  .mt-sm-22 {
+    margin-top: 22px !important;
+  }
+
+  header .header-top-area .header-top-right {
+    padding-top: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    border-top: 1px solid #999;
+  }
+
+  header .search-box {
+    -ms-flex-basis: 100%;
+    flex-basis: 100%;
+  }
+
+  header .header-middle-area .header-middle-block .header-mini-cart {
+    margin-top: 20px;
+    -ms-flex-basis: 100%;
+    flex-basis: 100%;
+  }
+
+  header .header-middle-area .header-middle-block .header-mini-cart .mini-cart-btn,
+  header .header-middle-area .header-middle-block .header-mini-cart .cart-total-price {
+    -ms-flex-basis: 50%;
+    flex-basis: 50%;
+  }
+
+  header .header-middle-area .header-middle-block .header-mini-cart .mini-cart-btn .cart-notification {
+    right: calc(50% - 20px);
+  }
+
+  main .slider-wrapper-area .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+
+  main .slider-wrapper-area .single-slider {
+    height: 350px;
+  }
+
+  main .slider-wrapper-area .single-slider .slider-main-content {
+    height: 350px;
+  }
+
+  main .slider-wrapper-area .single-slider .slider-main-content .slider-text h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  main .slider-wrapper-area .single-slider .slider-main-content .slider-text img {
+    max-width: 100px;
+  }
+
+  main .category-tab-area ul li {
+    font-size: 18px;
+  }
+
+  main .shop-product-wrap .product-list-item .product-thumb {
+    position: relative;
+    -ms-flex-basis: 180px;
+    flex-basis: 180px;
+    max-height: 180px;
+  }
+
+  main .shop-product-wrap .product-list-item .product-list-content {
+    flex-basis: calc(100% - 180px);
+    padding-right: 0;
+  }
+
+  footer .footer-top .footer-top-wrapper {
+    display: block;
+  }
+
+  footer .footer-top .footer-top-wrapper .newsletter__wrap {
+    display: block;
+  }
+
+  footer .footer-top .footer-top-wrapper .social-icons {
+    text-align: center;
+  }
+}
+
+/* Extra Small Devices, Phones */
+
+/* Custom, iPhone Retina */
+
+

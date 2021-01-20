@@ -1,0 +1,97 @@
+.blog-main-wrapper {
+    .blog-item {
+
+        > a {
+            color: #d8373e;
+            font-size: 13px;
+            text-transform: capitalize;
+        }
+
+        .blog-thumb {
+            position: relative;
+
+            &:hover a:before, &:hover a:after {
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+            }
+
+            a {
+                &:before {
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    content: "";
+                    position: absolute;
+                    background-color: rgba(255, 255, 255, 0.15);
+                    -webkit-transition: all 0.4s ease-out;
+                    -moz-transition: all 0.4s ease-out;
+                    -o-transition: all 0.4s ease-out;
+                    transition: all 0.4s ease-out;
+                    -webkit-transform-origin: top left;
+                    -ms-transform-origin: top left;
+                    transform-origin: top left;
+                    -webkit-transform: scale(0);
+                    -ms-transform: scale(0);
+                    transform: scale(0);
+                }
+
+                &:after {
+                    right: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                    content: "";
+                    position: absolute;
+                    background-color: rgba(255, 255, 255, 0.15);
+                    -webkit-transition: all 0.4s ease-out;
+                    -moz-transition: all 0.4s ease-out;
+                    -o-transition: all 0.4s ease-out;
+                    transition: all 0.4s ease-out;
+                    -webkit-transform-origin: right bottom;
+                    -ms-transform-origin: right bottom;
+                    transform-origin: right bottom;
+                    -webkit-transform: scale(0);
+                    -ms-transform: scale(0);
+                    transform: scale(0);
+                }
+            }
+        }
+
+        .blog-content {
+            padding-bottom: 5px;
+
+            h3 {
+                font-size: 18px;
+                font-weight: 700;
+                padding-top: 10px;
+                padding-bottom: 5px;
+                text-transform: capitalize;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 22px;
+            }
+
+            .blog-meta {
+                border-bottom: 1px solid #e5e5e5;
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+
+                span {
+                    color: #444444;
+                    font-size: 13px;
+                    text-transform: capitalize;
+
+                    &:before {
+                        content: "-";
+                        padding-right: 5px;
+                    }
+                }
+            }
+
+        }
+    }
+}

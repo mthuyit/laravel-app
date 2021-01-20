@@ -1,0 +1,51 @@
+.checkout-page-wrapper {
+
+    .checkout-billing-details-wrap h2, .order-summary-details h2 {
+        color: #444444;
+        font-size: 20px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+    }
+
+    .order-summary-table {
+        background-color: #f7f7f7;
+        margin-top: 34px;
+
+        th, td {
+            font: inherit;
+            vertical-align: middle;
+        }
+
+        img {
+            display: inline-block;
+            vertical-align: middle;
+            width: 80px;
+            margin-right: 20px;
+            border: 1px solid #e5e5e5;
+        }
+
+        .subtotal-price {
+            font-size: 20px;
+        }
+    }
+
+    .cart-update-option {
+        border: 1px solid #ccc;
+        margin-top: 15px;
+        padding: 15px 20px;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -ms-flex-pack: space-between;
+    }
+
+}

@@ -1,0 +1,30 @@
+.scroll-top {
+    background-color: #d8373e;
+    bottom: 50px;
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    height: 45px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 45px;
+    z-index: 9999;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+
+    &.not-visible {
+        bottom: -50px;
+        visibility: hidden;
+        -webkit-opacity: 0;
+        opacity: 0;
+    }
+
+    i {
+        line-height: 45px;
+        color: #fff;
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,61 @@
+@charset 'utf-8';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+// Abstracts
+@import 'abstracts/variables';
+
+// Bootstrap
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import "~bootstrap/scss/reboot";
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/transitions';
+@import '~bootstrap/scss/utilities';
+@import '~bootstrap/scss/tooltip';
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/alert';
+@import '~bootstrap/scss/breadcrumb';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/pagination';
+@import '~bootstrap/scss/tables';
+@import '~bootstrap/scss/dropdown';
+
+// Base
+@import 'base/base';
+@import 'base/helpers';
+
+// Components
+@import 'components/pagination';
+
+@import 'components/notification';
+@import 'components/scroll-top';
+@import 'components/shop-top-bar';
+@import 'components/section-title';
+@import 'components/related-products';
+@import 'components/search';
+@import 'components/menu';
+@import 'components/slick';
+@import 'components/rating';
+
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/right';
+
+// Pages
+@import 'pages/about-us';
+@import 'pages/auth';
+@import 'pages/blog';
+@import 'pages/blog-detail';
+@import 'pages/cart';
+@import 'pages/checkout';
+@import 'pages/contact-us';
+@import 'pages/landing-page';
+@import 'pages/my-profile';
+@import 'pages/product-detail';
+@import 'pages/product-item';
+@import 'pages/product';

@@ -1,0 +1,275 @@
+.voyager .side-menu .navbar-header {
+    background: #367fa9;
+    border-color: #367fa9;
+}
+
+.app-container.expanded .content-container .side-menu .navbar-header .navbar-brand .title b {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.app-container .side-menu .panel.widget .avatar {
+    height: 45px;
+    width: 45px;
+}
+
+.app-container .content-container .side-menu .navbar-header .navbar-brand, .navbar .navbar-nav>li>a {
+    height: 50px;
+    line-height: 50px;
+}
+
+.app-container .side-menu .panel.widget h4 {
+    left: 70px;
+    top: -10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.app-container .side-menu .panel.widget p.online {
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.app-container .side-menu .panel.widget p.online span{
+    float: left;
+    margin-top: 1px;
+    margin-right: 5px;
+}
+
+.header {
+    padding: 10px 25px 10px 15px;
+    font-size: 12px;
+    color: #4b646f;
+    background: #1a2226;
+    margin-top: 10px;
+}
+
+.voyager .side-menu.sidebar-inverse {
+    background-image:none;
+    background: #222D32;
+}
+
+.app-container .content-container .side-menu .navbar-nav li a {
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li>a {
+    color: #b8c7ce;
+}
+
+.expanded .side-menu .panel.widget p.online {
+    display: block;
+}
+
+.app-container .content-container .side-menu:hover p.online, .app-container .content-container .side-menu:hover .header {
+    display: block;
+}
+
+.app-container .side-menu .panel.widget .avatar {
+    margin-left: 8px;
+}
+
+.app-container .side-menu:hover .panel.widget .avatar {
+    margin-left: 8px;
+}
+
+.app-container .content-container .navbar-top {
+    background-color: #3c8dbc;
+}
+
+.hamburger {
+    padding: 22px 30px 24px 20px;
+}
+
+.hamburger-inner ,.hamburger-inner:after, .hamburger-inner:before{
+    background: #fff;
+}
+
+.breadcrumb {
+    margin-top: 6px;
+}
+
+.voyager .navbar.navbar-fixed-top .navbar-nav>li>a {
+    color: #fff;
+}
+
+.voyager .side-menu-container .navbar-nav>li>a {
+    color: #b8c7ce;
+}
+
+.voyager .navbar.navbar-default .navbar-nav>li>a:hover, .voyager .navbar .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.voyager .navbar.navbar-default .navbar-nav>li>a:focus, .voyager .navbar .navbar-nav>li>a:focus {
+    color: #fff;
+}
+
+.app-container {
+    background: #ecf0f5;
+}
+
+.container-fluid>.page-title {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.container-fluid>.page-title>i {
+    left: 0;
+}
+
+.page-title {
+    margin-top: 0;
+    padding-top: 0;
+    height: auto;
+    line-height: normal;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.page-title>i {
+    font-size: 30px;
+    margin-right: 0;
+    position: static;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#search-input .input-group {
+    margin-right: 10px;
+}
+
+#search-input {
+    border: 1px solid #ced4da;
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li.active>a {
+    background: #2a363b;
+}
+
+.btn.btn-primary {
+    background: #367fa9;
+}
+
+.voyager .panel.panel-primary .panel-heading, .voyager .alert.alert-info {
+    background: #3c8dbc;
+}
+
+#dataTable .toggle.btn {
+    min-height: auto;
+    height: 28px !important;
+}
+
+#dataTable .toggle .btn {
+    font-size: 12px;
+}
+
+input[type=file].browse-file {
+    display: inline-block;
+    padding: 7px;
+    background: none;
+}
+
+input[type=file].browse-file:hover {
+    background: none;
+}
+
+.form-control {
+    border-color: #d2d6de;
+}
+
+body {
+    font-weight: normal;
+}
+
+body, html, .table {
+    color: #333;
+}
+
+label {
+    font-weight: 700;
+}
+
+.btn.btn-primary.active {
+    background: #2ecc71;
+}
+
+.side-body>.language-selector {
+    padding: 0 10px 0 0;
+}
+
+.voyager .navbar .navbar-nav>li .label {
+    position: absolute;
+    top: 9px;
+    right: 4px;
+    text-align: center;
+    font-size: 9px;
+    padding: 2px 3px;
+    line-height: .9;
+}
+
+.voyager .navbar .navbar-nav>li .icon{
+    font-size: 20px;
+    margin-top: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.voyager .navbar .navbar-nav>li.web .icon {
+    margin-right: 5px;
+}
+
+.navbar .navbar-nav>li>a {
+    text-transform: none;
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li, .app-container .content-container .side-menu .navbar-nav li.dropdown {
+    border-top: 1px solid rgb(72 72 72 / 40%);
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li:first-child {
+    border: none;
+}
+
+.navbar .dropdown.profile .dropdown-menu {
+    position: absolute !important;
+}
+
+.voyager .navbar.navbar-default>.container-fluid:after, .voyager .navbar>.container-fluid {
+    height: auto;
+    width: auto;
+    border: none;
+}
+
+.voyager .table>thead>tr>th.relationship {
+    min-width: 150px;
+}
+
+.voyager .table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.voyager .table>thead>tr>th a{
+    display: flex;
+}
+
+.panel-body .select2-selection {
+    border-color:#d2d6de;
+}
+
+.user-email {
+    text-transform: lowercase;
+}
+
+.table-responsive .row>[class*=col-] {
+    margin-bottom: 0;
+}
+
+.app-container .content-container .side-menu .navbar-nav li a .title {
+    top: 0;
+}

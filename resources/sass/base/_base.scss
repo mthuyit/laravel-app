@@ -1,0 +1,52 @@
+*:focus {
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+a, input, button, textarea {
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+h1 {
+    &.active {
+        font: inherit;
+        color: $red;
+        margin-bottom: 0;
+    }
+
+    &.invisible {
+        height: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+
+    &.lazyload {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    &.lazyloaded {
+        opacity: 1;
+        transform: scale(1);
+        transition: all 700ms;
+    }
+}
